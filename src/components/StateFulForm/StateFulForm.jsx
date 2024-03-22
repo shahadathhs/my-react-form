@@ -9,7 +9,7 @@ const StateFulForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(event);
+    // console.log(event);
     // console.log(name, email, password);
     if(password.length < 6){
       setError('Password must be 6 characters or longer')
